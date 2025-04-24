@@ -1,30 +1,25 @@
-<!DOCTYPE html>
-<html lang="zh-TW">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>波浪線動畫</title>    <style>
-        html, body {
-            margin: 0;
-            padding: 0;
-            width: 100%;
-            height: 100%;
-            overflow: hidden;
-            background-color: black;
-        }
-        #waveCanvas {
-            display: block;
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: black;
-        }
-    </style>
-</head>
-<body>    <button id="connectButton" style="position: fixed; top: 20px; left: 20px; z-index: 100; padding: 10px 20px; background-color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 16px;">連接 Arduino</button>
-    <canvas id="waveCanvas"></canvas>
-    <script src="main.js"></script>
-</body>
-</html>
+# 波浪線動畫 (Graphic Line Wave)
+
+## 專案說明
+這是一個使用 HTML5 Canvas 實現的波浪線動畫效果。
+
+## 功能特點
+- 流暢的波浪線動畫效果
+- 響應式設計，適配各種螢幕尺寸
+- 高效能的動畫渲染
+- 平滑的畫面過渡效果
+
+## 安裝步驟
+1. 克隆此倉庫
+2. 直接在瀏覽器中打開 index.html 即可使用
+
+## 使用方法
+無需安裝其他依賴，打開 index.html 檔案即可看到動畫效果。
+
+## 技術說明
+- 使用 HTML5 Canvas 進行繪圖
+- 原生 JavaScript 實現動畫效果
+- CSS 實現響應式設計
+
+## 授權條款
+MIT License
